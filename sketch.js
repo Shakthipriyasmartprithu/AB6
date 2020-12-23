@@ -9,6 +9,19 @@ var backgroundImg,platform;
 var bird, slingshot;
 
 
+var name = "Shakthipriya";
+var numbers = 500;
+var bool = true;
+
+var object = null;
+var score;
+
+var arr1 = [1,2,3,4,5];
+
+arr1.pop();
+var markslist =[["shakthipriya", 60 ], ["senthan",90],["shakunthala",100]];
+
+
 function preload() {
     backgroundImg = loadImage("sprites/bg.png");
 }
@@ -41,6 +54,13 @@ function setup(){
 
     //log6 = new Log(230,180,80, PI/2);
     slingshot = new SlingShot(bird.body,{x:200, y:50});
+
+   // console.log(string);
+    console.log(numbers);
+    console.log(bool);
+    console.log(object);
+    console.log(score);
+    console.log(arr1);
 }
 
 function draw(){
